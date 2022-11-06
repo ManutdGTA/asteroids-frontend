@@ -1,0 +1,103 @@
+.App {
+  /* text-align: center; */
+  padding: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.App .App-header {
+  display: flex;
+  align-items: center;
+  font-family: poppins;
+  font-size: 14px;
+  line-height: 14px;
+}
+.App .App-header span {
+  padding-left: 10px;
+}
+
+.App .mid {
+  display: flex;
+  margin-top: 37px;
+}
+.App .mid .left {
+  width: 42%;
+}
+
+.App .mid .left .left_tab {
+  display: flex;
+}
+.App .mid .left .left_tab .tab {
+  width: 70px;
+  height: 66px;
+
+  border-radius: 8px;
+  margin-right: 32px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.App .mid .left .left_tab .tab.cur {
+  border: 1px solid #32334a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.App .mid .left .left_tab .tab .tab_pic {
+  width: 27px;
+  margin-bottom: 7px;
+}
+.App .mid .left .line {
+  width: 105%;
+  height: 0;
+  border: 0.5px solid #33344b;
+  left: -30px;
+  position: relative;
+}
+.App .mid .right {
+  width: 58%;
+}
+.App .mid .right p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.App .mid .right img {
+  border: 2px solid #3f4055;
+}
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

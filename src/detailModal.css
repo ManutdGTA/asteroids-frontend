@@ -1,0 +1,62 @@
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #101123;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .modal-block {
+  width: 549px;
+  background: #1a1b2f;
+  box-shadow: 0px 16px 24px rgba(12, 13, 33, 0.6);
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
+  opacity: 1;
+}
+.modal .modal-block .close {
+  position: absolute;
+  right: 24px;
+  cursor: pointer;
+}
+
+.modal .modal-block .miners_header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 10px;
+}
+.modal .modal-block .miners_header span {
+  /* min-width: 60px; */
+}
+.modal .modal-block .white_line {
+  width: 100%;
+  height: 0;
+  border: 0.5px solid #33344b;
+}
+.modal .modal-block .miners_row {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  font-size: 11px;
+}
+.modal .modal-block .miners_row .title {
+  text-decoration: underline;
+  /* min-width: 60px; */
+}
+.modal .modal-block .miners_row .value {
+  color: #9499c3;
+  /* min-width: 60px; */
+}
